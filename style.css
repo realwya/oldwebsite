@@ -1,0 +1,130 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+:root {
+  --main-color: #00b0ff;
+  --line-style: 1px solid #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #424242;
+  padding: 1em;
+  margin:0;
+  display: flex;
+  height: 100vh;
+  background-color: var(--main-color);
+}
+
+#nav {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  padding: 2em;
+  border-right: var(--line-style);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+#headpic {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #00b0ff;
+  margin: 2em 0;
+}
+
+#headimg {
+  height: 100%;
+  margin-left: -30px;
+}
+
+#description {
+  width: 100%;
+}
+
+#tab-bar {
+  width: 100%;
+}
+
+#contact {
+  width: 100%;
+}
+
+#tabs, #links {
+  list-style-type: none;
+  padding:0;
+}
+
+li {
+  line-height: 3em;
+  border-bottom: var(--line-style);
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+  display:block;
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+i {
+  width:1em;
+  margin-right: 1em;
+}
+
+#contact-heading {
+  color: var(--main-color);
+  font-size: 0.8em;
+}
+
+#copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  color: #9e9e9e;
+  margin-top: 4em;
+}
+
+#main {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  padding: 4em;
+  overflow: scroll;
+}
+
+#about {
+  font-size: 2em;
+  font-weight: 400;
+  border-bottom: var(--line-style);
+}
+
+#about p {
+  margin-top:0;
+}
+
+strong {
+  color: var(--main-color);
+}
+
+#works p {
+  font-size: 2em;
+}
+
+.glitch-embed-wrap {
+  margin-top:2em;
+}
+
