@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   color: #424242;
   padding: 1em;
-  margin:0;
+  margin: 0;
   display: flex;
   height: 100vh;
   background-color: var(--main-color);
@@ -28,7 +28,7 @@ body {
   background-color: white;
   padding: 2em;
   border-right: var(--line-style);
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   overflow: scroll;
@@ -60,9 +60,10 @@ body {
   width: 100%;
 }
 
-#tabs, #links {
+#tabs,
+#links {
   list-style-type: none;
-  padding:0;
+  padding: 0;
 }
 
 li {
@@ -73,7 +74,7 @@ li {
 a {
   text-decoration: none;
   color: #424242;
-  display:block;
+  display: block;
 }
 
 a:hover {
@@ -81,7 +82,7 @@ a:hover {
 }
 
 i {
-  width:1em;
+  width: 1em;
   margin-right: 1em;
 }
 
@@ -113,7 +114,7 @@ i {
 }
 
 #about p {
-  margin-top:0;
+  margin-top: 0;
 }
 
 strong {
@@ -125,6 +126,5 @@ strong {
 }
 
 .glitch-embed-wrap {
-  margin-top:2em;
+  margin-top: 2em;
 }
-
