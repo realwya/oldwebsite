@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -43,7 +48,6 @@ body {
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid #00b0ff;
-  margin: 2em 0;
 }
 
 #headimg {
