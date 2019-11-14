@@ -33,9 +33,6 @@ body {
   background-color: white;
   padding: 2em;
   border-right: var(--line-style);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   overflow: scroll;
 }
 
@@ -45,6 +42,7 @@ body {
   max-width: 150px;
   height: 12vw;
   max-height: 150px;
+  margin: 2em auto;
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid #00b0ff;
@@ -75,6 +73,7 @@ body {
 #links {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
@@ -92,14 +91,17 @@ a:hover {
   color: var(--main-color);
 }
 
-i {
-  width: 1em;
+svg {
+  width: 1.5em;
+  height: 3em;
   margin-right: 1em;
+  vertical-align: middle;
 }
 
 #contact-heading {
   color: var(--main-color);
   font-size: 0.8em;
+  margin: 2em 0 0;
 }
 
 #copyright {

@@ -13,6 +13,7 @@
   <!-- import the webpage's javascript file -->
   <script src="script.js" defer></script>
   <script src="https://kit.fontawesome.com/4ad4cf0640.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
@@ -30,14 +31,14 @@
     <div id="tab-bar">
       <ul id="tabs">
         <li>
-          <a href="#about" id="homeLink"><i class="fas fa-home"></i>Home</a>
+          <a href="#about" id="homeLink"><i data-feather="home"></i>Home</a>
         </li>
         <li>
-          <a href="#works" id="worksLink"><i class="fas fa-archive"></i>Works</a>
+          <a href="#works" id="worksLink"><i data-feather="briefcase"></i>Works</a>
         </li>
         <li>
           <a href="https://cdn.glitch.com/3ba67807-18c0-4e2d-8dc8-a4b03c6e13d3%2FYuAn'sResume1.0.pdf?v=1571170916752"
-            download="YuAn Wen's resume"><i class="fas fa-user-circle"></i>My resume</a>
+            download="YuAn Wen's resume"><i data-feather="user"></i>My resume</a>
         </li>
       </ul>
     </div>
@@ -47,17 +48,16 @@
       </p>
       <ul id="links">
         <li>
-          <a href="https://www.instagram.com/yuanwen929/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="https://www.instagram.com/yuanwen929/" target="_blank"><i data-feather="instagram"></i>Instagram</a>
         </li>
         <li>
-          <a href="https://github.com/imyuanwen" target="_blank"><i class="fab fa-github"></i>Github</a>
+          <a href="https://github.com/imyuanwen" target="_blank"><i data-feather="github"></i>Github</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/yuan-wen-8812a7170/" target="_blank"><i
-              class="fab fa-linkedin"></i>Linkedin</a>
+          <a href="https://www.linkedin.com/in/yuan-wen-8812a7170/" target="_blank"><i data-feather="linkedin"></i>Linkedin</a>
         </li>
         <li>
-          <a href="mailto:yuanwen@ad.unc.edu"><i class="far fa-envelope"></i>yuanwen@ad.unc.edu</a>
+          <a href="mailto:yuanwen@ad.unc.edu"><i data-feather="mail"></i>yuanwen@ad.unc.edu</a>
         </li>
       </ul>
     </div>
@@ -108,6 +108,9 @@
       </div>
     </div>
   </div>
+  <script>
+    feather.replace()
+  </script>
 </body>
 
 </html>
