@@ -36,11 +36,13 @@ body {
 
 #headpic {
   position: relative;
-  width: 60%;
-  padding-bottom: 60%;
+  width: 12vw;
+  max-width: 150px;
+  height: 12vw;
+  max-height: 150px;
   overflow: hidden;
   border-radius: 50%;
- /* border: 5px solid #00b0ff; */
+  border: 5px solid #00b0ff;
   margin: 2em 0;
 }
 
@@ -48,7 +50,9 @@ body {
   position: absolute;
   height: 100%;
   width: auto;
-  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #description {
