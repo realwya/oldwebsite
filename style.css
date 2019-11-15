@@ -141,3 +141,13 @@ strong {
 .glitch-embed-wrap {
   margin-top: 2em;
 }
+
+.project {
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  height: 420px;
+  margin-top: 2em;
+  border-radius: 5px;
+  border: var(--line-style);
+}
