@@ -87,10 +87,12 @@ a {
   text-decoration: none;
   color: #424242;
   display: block;
+  transition: color 300ms;
 }
 
 a:hover {
   color: var(--main-color);
+
 }
 
 svg {
