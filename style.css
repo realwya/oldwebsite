@@ -1,6 +1,6 @@
 /* CSS files add styling rules to your content */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
 :root {
   --main-color: #00b0ff;
@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #424242;
   margin: 0;
