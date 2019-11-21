@@ -22,7 +22,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #424242;
-  padding: 1em; 
   margin: 0;
   display: flex;
   justify-content: center;
@@ -127,8 +126,8 @@ svg {
   width: 75%;
   height: 100%;
   background-color: white;
-  padding: 4em;
-  overflow: scroll;
+  padding: 4em 4em 0;
+  overflow-y: scroll;
 }
 
 #about {
@@ -145,16 +144,12 @@ strong {
   color: var(--main-color);
 }
 
-.glitch-embed-wrap {
-  margin-top: 2em;
-}
-
 .project {
   background-position: center;
   background-size: cover;
   width:100%;
   height: 420px;
-  margin-top: 2em;
+  margin: 2em 0;
   border: var(--line-style);
   position: relative;
 }
