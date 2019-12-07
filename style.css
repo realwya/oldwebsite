@@ -33,6 +33,7 @@ body {
   max-width: 1200px;
   width:100%;
   display: flex;
+  justify-content: center;
 }
 
 #nav {
@@ -75,6 +76,7 @@ body {
 
 #contact {
   width: 100%;
+  word-break: break-all;
 }
 
 #tabs,
@@ -170,4 +172,45 @@ strong {
 
 .project-des {
   font-size: 1em;
+}
+
+#menu {
+  height: 4em;
+  line-height: 4em;
+  display:none;
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+#menu svg {
+  margin-left: 4em;
+  cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+  #nav {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  #nav.hamburger {
+    display:block;
+    position: fixed;
+    left: 0;
+    top: 4em;
+    z-index: 1;
+    border:none;
+    width: 70%;
+    padding: 2em 4em;
+  }
 }
