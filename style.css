@@ -210,7 +210,12 @@ strong {
     top: 4em;
     z-index: 1;
     border:none;
-    width: 70%;
+    width: 100%;
     padding: 2em 4em;
+  }
+
+  #headpic {
+    width: 20vw;
+    height: 20vw;
   }
 }
