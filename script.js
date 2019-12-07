@@ -13,6 +13,9 @@ $(document).ready(function () {
     event.preventDefault();
     $("#main").animate({ scrollTop: workspos }, 300);
   });
+  $('#burger-menu').click(function () {
+    $('#nav').toggleClass('hamburger')
+  });
 
   // change tab bar css according scrollbar
 
