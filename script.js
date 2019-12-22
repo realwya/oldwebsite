@@ -17,6 +17,5 @@ $(document).ready(function () {
     $('#nav').toggleClass('hamburger')
   });
 
-  // change tab bar css according scrollbar
 
 });

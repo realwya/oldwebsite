@@ -1,27 +1,31 @@
 /* CSS files add styling rules to your content */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
 
 :root {
-  --main-color: #00b0ff;
+  --main-color: #1d78bd;
+  --p-color: #828282;
+  --heading-color: #333333;
   --line-style: 1px solid #e0e0e0;
 }
 
 * {
   box-sizing: border-box;
   scrollbar-width: none;
-  -ms-overflow-style:none;
+  -ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
-  color: #424242;
+  color: var(--p-color);
   margin: 0;
   display: flex;
   justify-content: center;
@@ -29,9 +33,9 @@ body {
   /* background-color: var(--main-color); */
 }
 
-#content{
+#content {
   max-width: 1200px;
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -54,7 +58,7 @@ body {
   margin: 2em auto;
   overflow: hidden;
   border-radius: 50%;
-  border: 5px solid #00b0ff;
+  border: 5px solid var(--main-color);
 }
 
 #headimg {
@@ -93,14 +97,13 @@ li {
 
 a {
   text-decoration: none;
-  color: #424242;
+  color: var(--p-color);
   display: block;
   transition: color 300ms;
 }
 
 a:hover {
   color: var(--main-color);
-
 }
 
 svg {
@@ -113,6 +116,7 @@ svg {
 #contact-heading {
   color: var(--main-color);
   font-size: 0.8em;
+  font-weight: bold;
   margin: 2em 0 0;
 }
 
@@ -128,31 +132,28 @@ svg {
   width: 75%;
   height: 100%;
   background-color: white;
-  padding: 4em 4em 0;
+  padding: 4rem 4rem 0;
   overflow-y: scroll;
-}
-
-#about {
-  font-size: 2em;
-  font-weight: 400;
-  /* border-bottom: var(--line-style); */
+  font-size: 20px;
 }
 
 #about p {
   margin-top: 0;
 }
 
-strong {
-  color: var(--main-color);
+h1 {
+  margin-bottom: 0;
+  color: var(--heading-color);
+  font-size: 1.5em;
 }
 
 .project {
   background-position: center;
   background-size: cover;
-  width:100%;
+  width: 100%;
   height: 420px;
   margin: 2em 0;
-  border: var(--line-style);
+  border-bottom: var(--line-style);
   position: relative;
 }
 
@@ -161,25 +162,27 @@ strong {
   bottom: 0;
   background-color: white;
   width: 100%;
-  padding-left: 1em;
+  padding: 0;
 }
 
 .project-title {
-  font-size: 2em;
+  font-size: 1.5em;
+  color: var(--heading-color);
   font-weight: bold;
   margin: 1rem 0 0;
 }
 
 .project-des {
-  font-size: 1em;
+  margin-top: 0;
+  color: var(--p-color);
 }
 
 #menu {
   height: 4em;
   line-height: 4em;
-  display:none;
+  display: none;
   position: fixed;
-  top:0;
+  top: 0;
   width: 100%;
   background-color: white;
   z-index: 1;
@@ -204,12 +207,12 @@ strong {
   }
 
   #nav.hamburger {
-    display:block;
+    display: block;
     position: fixed;
     left: 0;
     top: 4em;
     z-index: 1;
-    border:none;
+    border: none;
     width: 100%;
     padding: 2em 4em;
   }
