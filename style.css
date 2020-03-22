@@ -1,6 +1,6 @@
 /* CSS files add styling rules to your content */
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 :root {
   --main-color: #1d78bd;
@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: var(--p-color);
   margin: 0;
