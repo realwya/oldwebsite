@@ -1,5 +1,4 @@
 /* CSS files add styling rules to your content */
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 :root {
@@ -223,5 +222,16 @@ h1 {
   #headpic {
     width: 20vw;
     height: 20vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #menu svg {
+    margin-left: 16px;
   }
 }
